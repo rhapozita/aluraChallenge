@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador de textos</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/code.svg">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Ferramenta de <span>codificação</span> e <span>decodificação</span> de textos</h1>
+    </header>
+    <main class="container">
+            <div class="container__input-output">
+                <h4>Entrada:</h4>
+                <textarea id="input-texto" placeholder="Digite seu texto..."></textarea>
+                <p>
+                    <i class="fa-sharp fa-solid fa-circle-info"></i>                    
+                    Use apenas letras minúsculas e sem acento.
+                </p>
+                <div class="container__botoes">
+                    <button onclick="criptografar()" class="container__botao">Criptografar</button>
+                    <button onclick="descriptografar()" class="container__botao">Descriptografar</button>
+                </div>
+                <h4>Saída:</h4>
+                <div id="output-texto">
+                    <h3>Nenhuma mensagem encontrada.</h3>
+                    <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+                </div>
+            </div>
+    </main>
+    <footer class="rodape">
+        <a class="rodape__botoes" href="https://www.instagram.com/giovanama_rtins/#">
+            • <i class="fa-brands fa-instagram"></i>
+            Desenvolvido por Giovana Martins •
+        </a>
+        <a class="rodape__botoes" href="https://github.com/rhapozita">
+            • <i class="fa-brands fa-github" class="rodape__botoes__logo"></i>
+            Github da desenvolvedora •
+        </a>
+        <a class="rodape__botoes" href="https://www.linkedin.com/in/giovana-martins-pessanha-299894264/">
+            • <i class="fa-brands fa-linkedin" class="rodape__botoes__logo"></i>
+            Linkedin da desenvolvedora •
+        </a>
+    </footer>
+    <script src="js/app.js"></script> 
+</body>
+</html>
