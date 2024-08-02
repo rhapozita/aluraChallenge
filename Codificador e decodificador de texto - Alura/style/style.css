@@ -111,3 +111,11 @@ body {
     color: var(--cor-hover);
     transition: 0.5s all;
 }
+
+.invisivel {
+    display: none;
+}
+
+.visivel {
+    display: block;
+}
